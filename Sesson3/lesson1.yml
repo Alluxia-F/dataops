@@ -1,9 +1,7 @@
-Description: >
-	Xiao Ping Yang / Data Ops
-	This template deploys a VPC.
+Description: "Xiao Ping Yang / Dataops. This template deploys a VPC.\n"
 Resources:
-	VPC:
-		Type: AWS::EC2::VPC
-		properties:
-			CidrBlock: 10.0.0.0/16
-			EnableDnsHostnames: true
+    VPC:
+        Type: 'AWS::EC2::VPC'
+        Properties:
+            CidrBlock: 10.0.0.0/16
+            EnableDnsHostnames: true
